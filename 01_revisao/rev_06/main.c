@@ -31,13 +31,13 @@ if (fgets(c, TAM_MAX, stdin) != NULL) {
 
 }
 
- // Percorre todos os 256 possíveis valores ASCII para garantir a ORDEM
+ // Percorre todos os 256 valores ASCII para ter ordem
     for (int ascii_val = 0; ascii_val < 256; ascii_val++) {
         char char_atual = (char)ascii_val;
         int cont = 0;
 
-        // Verifica se o caractere atual (pela ordem ASCII) existe na string
-        // e se é alfanumérico (requisito do problema)
+        // Verifica se o caractere atual existe na string
+        // e se é alfanumérico 
         if (isalnum(char_atual)) {
             
             // Laço para contar a frequência deste caractere na string 'c'
@@ -47,7 +47,7 @@ if (fgets(c, TAM_MAX, stdin) != NULL) {
                 }
             }
             
-            // Aplica a condição de promoção e imprime UMA ÚNICA VEZ
+            // Aplica a condição de promoção e imprime uma vez
             if (cont >= lim) {
                 promo = 1;
                 printf("%c: %d\n", char_atual, cont);
@@ -55,7 +55,7 @@ if (fgets(c, TAM_MAX, stdin) != NULL) {
         }
     }
 
-    // 4. IMPRESSÃO DO REQUISITO "NENHUM"
+
     if (!promo) {
         printf("NENHUM\n");
     }
