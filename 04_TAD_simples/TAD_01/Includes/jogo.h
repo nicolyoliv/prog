@@ -24,7 +24,7 @@ tJogo CriaJogo();
  * 
  * @param jogo o jogo a ser iniciado.
  */
-void ComecaJogo(tJogo jogo);
+void ComecaJogo(tJogo *jogo);
 
 
 /**
