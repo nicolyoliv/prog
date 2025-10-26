@@ -1,0 +1,4 @@
+main.c: In function ‘main’:
+main.c:15:14: warning: unused variable ‘usuario’ [-Wunused-variable]
+   15 |     tUsuario usuario[quant];
+      |              ^~~~~~~
