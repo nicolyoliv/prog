@@ -19,7 +19,6 @@ tFilme leFilme (int codigo) {
     char nome[MAX_CARACTERES];
 
     if (scanf(" %[^,],%d,%d", nome, &valor, &quantidade) != 3) {
-        printf("Erro ao ler filme\n");
         exit(1);
     }
 

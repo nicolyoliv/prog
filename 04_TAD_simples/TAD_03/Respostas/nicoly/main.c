@@ -26,8 +26,6 @@ int main(void) {
         }else {
             break;
         }
-
-        *operacao = '\0';
     }
     
     consultarLucroLocadora(locadora);
