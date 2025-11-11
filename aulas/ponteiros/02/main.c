@@ -26,7 +26,7 @@ int main(){
     int a = 10;
     int b = 20;
     inicializa_array_operacoes();
-    printf("R: %d", calculadora('+', a,b))
+    printf("R: %d", calculadora('+', a,b));
 
 
 
