@@ -7,15 +7,16 @@
 #define MAX_TITULO 100
 #define MAX_AUTOR 50
 
-typedef stuct{
+typedef struct{
     char titulo [MAX_TITULO];
     char autor [MAX_AUTOR];
     int edicao;
     int nPaginas;
 }Livro;
 
-void criaLivro(Livro *l, char *titulo, char *autor, int ed, int pag);
+Livro* criaLivro(char *titulo, char *autor, int ed, int pag);
 
+void liberaLivro(Livro *l);
 
 
 #endif

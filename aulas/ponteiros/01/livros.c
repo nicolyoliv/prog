@@ -1,14 +1,20 @@
 #include <stdio.h>
 #include "livros.h"
 #include <string.h>
+#include <stdlib.h>
 
 
-void criaLivro(Livro *l, char *titulo, char *autor, int ed, int pag){
-    
+Livro * criaLivro( char *titulo, char *autor, int ed, int pag){
+    Livro *l = (Livro*) malloc(sizeof(Livro));
+
     strcpy(l->titulo, titulo);
     strcpy(l->autor, autor);
     l->edicao = ed;
-    l->npagina = pag;
+    l->nPaginas = pag;
+return l;
 
+}
 
+void liberaLivro(Livro *l){
+    free(l);
 }
