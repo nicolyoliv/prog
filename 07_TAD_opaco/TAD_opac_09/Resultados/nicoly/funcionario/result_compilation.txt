@@ -1,0 +1,25 @@
+funcionario.c: In function ‘CriaFuncionario’:
+funcionario.c:15:35: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+   15 | tFuncionario* f = (tFuncionario*) malloc(sizeof(tFuncionario));
+      |                                   ^~~~~~
+funcionario.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    2 | #include "funcionario.h"
+  +++ |+#include <stdlib.h>
+    3 | 
+funcionario.c:15:35: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+   15 | tFuncionario* f = (tFuncionario*) malloc(sizeof(tFuncionario));
+      |                                   ^~~~~~
+funcionario.c:15:35: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+funcionario.c:17:5: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   17 |     exit(1);
+      |     ^~~~
+funcionario.c:17:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+funcionario.c:17:5: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+funcionario.c:17:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+funcionario.c: In function ‘ApagaFuncionario’:
+funcionario.c:30:1: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   30 | free(funcionario);
+      | ^~~~
+funcionario.c:30:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+funcionario.c:30:1: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+funcionario.c:30:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’

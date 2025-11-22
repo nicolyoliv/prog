@@ -1,0 +1,41 @@
+empresa.c: In function ‘CriaEmpresa’:
+empresa.c:20:26: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+   20 | tEmpresa* e = (tEmpresa*)malloc(sizeof(tEmpresa));
+      |                          ^~~~~~
+empresa.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    2 | #include <stdio.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+empresa.c:20:26: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+   20 | tEmpresa* e = (tEmpresa*)malloc(sizeof(tEmpresa));
+      |                          ^~~~~~
+empresa.c:20:26: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+empresa.c:22:5: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   22 |     exit(1);
+      |     ^~~~
+empresa.c:22:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+empresa.c:22:5: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+empresa.c:22:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+empresa.c: In function ‘LeEmpresa’:
+empresa.c:39:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   39 |         exit(1);
+      |         ^~~~
+empresa.c:39:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+empresa.c: In function ‘ApagaEmpresa’:
+empresa.c:60:5: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   60 |     free(empresa->funcionario);
+      |     ^~~~
+empresa.c:60:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+empresa.c:60:5: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+empresa.c:60:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+empresa.c: In function ‘ContrataFuncionarioEmpresa’:
+empresa.c:85:45: warning: implicit declaration of function ‘realloc’ [-Wimplicit-function-declaration]
+   85 |     empresa->funcionario = (tFuncionario**) realloc(
+      |                                             ^~~~~~~
+empresa.c:85:45: note: include ‘<stdlib.h>’ or provide a declaration of ‘realloc’
+empresa.c:85:45: warning: incompatible implicit declaration of built-in function ‘realloc’ [-Wbuiltin-declaration-mismatch]
+empresa.c:85:45: note: include ‘<stdlib.h>’ or provide a declaration of ‘realloc’
+empresa.c:92:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   92 |         exit(1);
+      |         ^~~~
+empresa.c:92:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’

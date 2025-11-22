@@ -1,0 +1,53 @@
+circulo.c: In function ‘Circulo_Cria’:
+circulo.c:21:34: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+   21 |     tCirculo circulo =(tCirculo) malloc (sizeof(struct circulo));
+      |                                  ^~~~~~
+circulo.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    2 | #include "circulo.h"
+  +++ |+#include <stdlib.h>
+    3 | 
+circulo.c:21:34: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+   21 |     tCirculo circulo =(tCirculo) malloc (sizeof(struct circulo));
+      |                                  ^~~~~~
+circulo.c:21:34: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+circulo.c:24:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   24 |         exit(1);
+      |         ^~~~
+circulo.c:24:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+circulo.c:24:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+circulo.c:24:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+circulo.c: In function ‘Circulo_Apaga’:
+circulo.c:38:1: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   38 | free(c);
+      | ^~~~
+circulo.c:38:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+circulo.c:38:1: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+circulo.c:38:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+ponto.c:9:1: warning: useless storage class specifier in empty declaration
+    9 | };
+      | ^
+ponto.c: In function ‘Pto_Cria’:
+ponto.c:20:29: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+   20 |     tPonto ponto = (tPonto) malloc (sizeof(tPonto));
+      |                             ^~~~~~
+ponto.c:4:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    3 | #include "ponto.h"
+  +++ |+#include <stdlib.h>
+    4 | 
+ponto.c:20:29: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+   20 |     tPonto ponto = (tPonto) malloc (sizeof(tPonto));
+      |                             ^~~~~~
+ponto.c:20:29: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+ponto.c:22:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   22 |         exit(1);
+      |         ^~~~
+ponto.c:22:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+ponto.c:22:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+ponto.c:22:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+ponto.c: In function ‘Pto_Apaga’:
+ponto.c:35:5: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   35 |     free(p);
+      |     ^~~~
+ponto.c:35:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+ponto.c:35:5: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+ponto.c:35:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’

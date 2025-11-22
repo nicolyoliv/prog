@@ -1,0 +1,11 @@
+data.c: In function ‘ComparaData’:
+data.c:195:57: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  195 | }if(data1->ano <data2->ano  || data1->ano == data2->ano && data1->mes < data2->mes || data1->ano == data2->ano && data1->mes == data2->mes && data1->dia<data2->dia){
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+data.c:195:140: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  195 | }if(data1->ano <data2->ano  || data1->ano == data2->ano && data1->mes < data2->mes || data1->ano == data2->ano && data1->mes == data2->mes && data1->dia<data2->dia){
+      |                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+data.c: In function ‘NumeroDiasMes’:
+data.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+  182 | }
+      | ^
