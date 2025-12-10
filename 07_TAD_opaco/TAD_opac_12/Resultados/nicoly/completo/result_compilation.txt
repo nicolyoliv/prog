@@ -1,0 +1,12 @@
+array.c: In function ‘LerArray’:
+array.c:48:19: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+   48 |         int len = strlen(entrada);
+      |                   ^~~~~~
+array.c:5:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+    4 | #include <ctype.h>
+  +++ |+#include <string.h>
+    5 | 
+array.c:48:19: warning: incompatible implicit declaration of built-in function ‘strlen’ [-Wbuiltin-declaration-mismatch]
+   48 |         int len = strlen(entrada);
+      |                   ^~~~~~
+array.c:48:19: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
