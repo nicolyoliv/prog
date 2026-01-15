@@ -1,0 +1,12 @@
+{
+	"alunos": [
+		{
+			"Nome":"Nicoly",
+			"Nota":.33
+		},
+		{
+			"Nome":"Nicoly/main.c",
+			"Nota":0
+		}
+	]
+}

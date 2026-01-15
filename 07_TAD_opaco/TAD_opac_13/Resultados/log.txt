@@ -1,0 +1,402 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Nicoly
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Nicoly:
+ - Diretório Resultados/Nicoly criado com sucesso!
+ - Diretório Resultados/Nicoly/main criado com sucesso!
+ - Diretório Resultados/Nicoly/completo criado com sucesso!
+ - Diretório Resultados/Nicoly/data criado com sucesso!
+ - Diretório Resultados/Nicoly/paciente criado com sucesso!
+ - Diretório Resultados/Nicoly/lesao criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Nicoly/data.c' encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/data.h' encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/lesao.c' encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/lesao.h' encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/paciente.c' encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/paciente.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/main
+ - Copiando os Includes/*.h do professor para a pasta Resultados/Nicoly/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Nicoly/main
+ - Removendo o main.o do professor da pasta Resultados/Nicoly/main
+ - Copiando o Respostas/Nicoly/main.c do aluno para a pasta Resultados/Nicoly/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/completo
+ - Copiando os Respostas/Nicoly/data.c do aluno para a pasta Resultados/Nicoly/completo
+ - Copiando os Respostas/Nicoly/data.h do aluno para a pasta Resultados/Nicoly/completo
+ - Copiando os Respostas/Nicoly/lesao.c do aluno para a pasta Resultados/Nicoly/completo
+ - Copiando os Respostas/Nicoly/lesao.h do aluno para a pasta Resultados/Nicoly/completo
+ - Copiando os Respostas/Nicoly/main.c do aluno para a pasta Resultados/Nicoly/completo
+ - Copiando os Respostas/Nicoly/paciente.c do aluno para a pasta Resultados/Nicoly/completo
+ - Copiando os Respostas/Nicoly/paciente.h do aluno para a pasta Resultados/Nicoly/completo
+ - Pasta data:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/data
+ - Copiando os Includes/*.h do professor para a pasta Resultados/Nicoly/data
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Nicoly/data
+ - Removendo o data.o do professor da pasta Resultados/Nicoly/data
+ - Copiando o Respostas/Nicoly/data.c do aluno para a pasta Resultados/Nicoly/data
+ - Pasta paciente:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/paciente
+ - Copiando os Includes/*.h do professor para a pasta Resultados/Nicoly/paciente
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Nicoly/paciente
+ - Removendo o paciente.o do professor da pasta Resultados/Nicoly/paciente
+ - Copiando o Respostas/Nicoly/paciente.c do aluno para a pasta Resultados/Nicoly/paciente
+ - Pasta lesao:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/lesao
+ - Copiando os Includes/*.h do professor para a pasta Resultados/Nicoly/lesao
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Nicoly/lesao
+ - Removendo o lesao.o do professor da pasta Resultados/Nicoly/lesao
+ - Copiando o Respostas/Nicoly/lesao.c do aluno para a pasta Resultados/Nicoly/lesao
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Nicoly/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta data ok!
+ - Arquivo de output gerado: Resultados/Nicoly/data/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta paciente ok!
+ - Arquivo de output gerado: Resultados/Nicoly/paciente/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta lesao ok!
+ - Arquivo de output gerado: Resultados/Nicoly/lesao/result_compilation.txt
+ - Arquivos Compilados: Erro!: 1 arquivos com erros de compilacao.
+
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Nicoly/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Nicoly/completo/result_linking.txt
+ - Pasta data:
+ - Gerando o binário prog linkando com o(s) arquivo(s) data/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Nicoly/data/result_linking.txt
+ - Pasta paciente:
+ - Gerando o binário prog linkando com o(s) arquivo(s) paciente/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Nicoly/paciente/result_linking.txt
+ - Pasta lesao:
+ - Gerando o binário prog linkando com o(s) arquivo(s) lesao/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Nicoly/lesao/result_linking.txt
+ - Arquivos Linkados: Erro! 4 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 3.5) - 0 de 60 - 0% de 3.5: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 1.0) - 0 de 60 - 0% de 1.0: 0.
+ -----
+ - Pasta data / Caso 1:
+ - Arquivo de output gerado: Resultados/Nicoly/data/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 2:
+ - Arquivo de output gerado: Resultados/Nicoly/data/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 3:
+ - Arquivo de output gerado: Resultados/Nicoly/data/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 4:
+ - Arquivo de output gerado: Resultados/Nicoly/data/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 15, frees: 15, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 5:
+ - Arquivo de output gerado: Resultados/Nicoly/data/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 6:
+ - Arquivo de output gerado: Resultados/Nicoly/data/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta data (máximo 1.0) - 20.00 de 60 - 33.00% de 1.0: .33.
+ -----
+ - Pasta paciente / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta paciente / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta paciente (máximo 3.0) - 0 de 60 - 0% de 3.0: 0.
+ -----
+ - Pasta lesao / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta lesao / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta lesao / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta lesao / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta lesao / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta lesao / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta lesao (máximo 1.5) - 0 de 60 - 0% de 1.5: 0.
+ -----
+
+#######################################
+ALUNO: Nicoly/main.c
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Nicoly/main.c:
+ - Diretório Resultados/Nicoly/main.c criado com sucesso!
+ - Diretório Resultados/Nicoly/main.c/main criado com sucesso!
+ - Diretório Resultados/Nicoly/main.c/completo criado com sucesso!
+ - Diretório Resultados/Nicoly/main.c/data criado com sucesso!
+ - Diretório Resultados/Nicoly/main.c/paciente criado com sucesso!
+ - Diretório Resultados/Nicoly/main.c/lesao criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Nicoly/main.c/data.c' não encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/main.c/data.h' não encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/main.c/lesao.c' não encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/main.c/lesao.h' não encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/main.c/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/main.c/paciente.c' não encontrado!
+ - Arquivo esperado 'Respostas/Nicoly/main.c/paciente.h' não encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/main.c/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/main.c/completo
+ - Pasta data:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/main.c/data
+ - Pasta paciente:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/main.c/paciente
+ - Pasta lesao:
+ - Copiando os Casos de teste para a pasta Resultados/Nicoly/main.c/lesao
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Erro de compilação! Verifique os arquivos da pasta completo.
+ - Erro de compilação! Verifique os arquivos da pasta data.
+ - Erro de compilação! Verifique os arquivos da pasta paciente.
+ - Erro de compilação! Verifique os arquivos da pasta lesao.
+ - Arquivos Compilados: Erro!: 5 arquivos com erros de compilacao.
+
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Nicoly/main.c/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Nicoly/main.c/completo/result_linking.txt
+ - Pasta data:
+ - Gerando o binário prog linkando com o(s) arquivo(s) data/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Nicoly/main.c/data/result_linking.txt
+ - Pasta paciente:
+ - Gerando o binário prog linkando com o(s) arquivo(s) paciente/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Nicoly/main.c/paciente/result_linking.txt
+ - Pasta lesao:
+ - Gerando o binário prog linkando com o(s) arquivo(s) lesao/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Nicoly/main.c/lesao/result_linking.txt
+ - Arquivos Linkados: Erro! 5 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 3.5) - 0 de 10 - 0% de 3.5: 0.
+ -----
+ - Pasta completo / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 1.0) - 0 de 10 - 0% de 1.0: 0.
+ -----
+ - Pasta data / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta data (máximo 1.0) - 0 de 10 - 0% de 1.0: 0.
+ -----
+ - Pasta paciente / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta paciente (máximo 3.0) - 0 de 10 - 0% de 3.0: 0.
+ -----
+ - Pasta lesao / Caso *:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta lesao (máximo 1.5) - 0 de 10 - 0% de 1.5: 0.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Nicoly
+ - Arquivos Esperados Corretos: 6 de 7
+ - Pastas Compiladas Corretamente: 4 de 5 
+ - Pastas Linkadas Corretamente: 1 de 5
+ - Teste main
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Nicoly para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Nicoly para o teste completo: 0
+ - Teste data
+ - Resultados corretos: 2 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de Nicoly para o teste data: .33
+ - Teste paciente
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Nicoly para o teste paciente: 0
+ - Teste lesao
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Nicoly para o teste lesao: 0
+ - Nota de Nicoly: 0+(0)+(0)+(0)+(0)+(.33)
+ - Nota de Nicoly: .33
+
+----------------------------------------------------------------------------
+Aluno: Nicoly/main.c
+ - Arquivos Esperados Corretos: 0 de 7
+ - Pastas Compiladas Corretamente: 0 de 5 
+ - Pastas Linkadas Corretamente: 0 de 5
+ - Teste main
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Nicoly/main.c para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Nicoly/main.c para o teste completo: 0
+ - Teste data
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Nicoly/main.c para o teste data: 0
+ - Teste paciente
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Nicoly/main.c para o teste paciente: 0
+ - Teste lesao
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de Nicoly/main.c para o teste lesao: 0
+ - Nota de Nicoly/main.c: 0+(0)+(0)+(0)+(0)+(0)
+ - Nota de Nicoly/main.c: 0
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

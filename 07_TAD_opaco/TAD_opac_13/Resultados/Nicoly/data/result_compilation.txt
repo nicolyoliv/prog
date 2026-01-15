@@ -1,0 +1,4 @@
+data.c: In function ‘diferencaAnoData’:
+data.c:49:64: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   49 |     if(atual->mes < inicial->mes || atual->mes == inicial->mes && atual->dia < inicial->dia){
+      |                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,29 @@
+Arquivos Esperados Corretos: 7 de 8
+Pastas Compiladas Corretamente: 5 de 6 
+Pastas Linkadas Corretamente: 6 de 6
+Teste main
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Nicoly para o teste main: 1.66
+Teste completo
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Nicoly para o teste completo: 1.66
+Teste data
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Nicoly para o teste data: 1.67
+Teste paciente
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Nicoly para o teste paciente: 1.67
+Teste pad
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Nicoly para o teste pad: 1.67
+Teste lesao
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Nicoly para o teste lesao: 1.67
+Nota de Nicoly: 0+(1.67)+(1.67)+(1.67)+(1.66)+(1.66)+(1.67)
+Nota de Nicoly: 10.00
