@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/Includes/fila/main.o: na função "main":
+main.c:(.text+0x24): undefined reference to `FilaConstruct'
+/usr/bin/ld: main.c:(.text+0xbb): undefined reference to `FilaPush'
+/usr/bin/ld: main.c:(.text+0xe6): undefined reference to `FilaPop'
+/usr/bin/ld: main.c:(.text+0x134): undefined reference to `FilaDestroy'
+collect2: error: ld returned 1 exit status
