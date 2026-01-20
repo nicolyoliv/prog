@@ -5,9 +5,9 @@
 
 
  struct pacote {
-    Type type;
-    int numElem;
-    void *data;
+   Type type;
+   int numElem;
+   void* data;
  };
 
 /**
@@ -19,27 +19,23 @@
  * @return O vetor genérico
  */
 tPacote* CriaPacote(Type type, int numElem){
-    tPacote *p = (tPacote*)calloc(1, sizeof(tPacote));
-    if(p == NULL){
-        exit(1);
-    }
+   tPacote* p = (tPacote*)calloc(1,sizeof(tPacote));
+   if(p == NULL){
+    exit(1);
+   }
+   p->type = type;
+   p->numElem = numElem;
 
-    p->numElem = numElem;
-    p->type = type;
-
-    if(type == CHAR){
-        p->data = (char*)malloc(sizeof(char)*numElem+1);
-
-    }else if(type== INT){
-        p->data = (int*)malloc(sizeof(int)*numElem);
-
-    }
-    if(p->data == NULL){
+   if(p->type == CHAR){
+    p->data = (char*)malloc(sizeof(char)*numElem+1);
+   }else if(type == INT){
+    p->data = (int*)malloc(sizeof(int)*numElem+1);
+    
+   } if(p->data == NULL){
         free(p);
         return NULL;
     }
-    return  p;
-
+   return p;
 }
 
 /**
@@ -49,7 +45,7 @@ tPacote* CriaPacote(Type type, int numElem){
  */
 void DestroiPacote(tPacote* pac){
     free(pac->data);
-    free(pac);
+   free(pac);
 
 }
 
@@ -59,16 +55,14 @@ void DestroiPacote(tPacote* pac){
  * @param pac - O vetor genérico que terá seu conteúdo preenchido/lido
  */
 void LePacote(tPacote* pac){
-    if(pac->type == INT){
-        for(int i = 0; i<pac->numElem;i++){
-            scanf("%d", &((int*)pac->data)[i]);
-        }
+   if(pac->type == CHAR){
+    for(int i = 0; i<pac->numElem;i++){
+        scanf(" %c", &((char*)pac->data)[i]);
+    }}else if(pac->type == INT){
+    for(int i = 0; i<pac->numElem;i++){
+        scanf("%d", &((int*)pac->data)[i]);
     }
-    if(pac->type == CHAR){
-        for(int i = 0; i<pac->numElem;i++){
-            scanf("%s", (char*)pac->data);
-        }
-    }
+   }
 
 }
 
@@ -78,18 +72,15 @@ void LePacote(tPacote* pac){
  * @param pac - O vetor genérico que terá seu conteúdo impresso em tela
  */
 void ImprimePacote(tPacote* pac){
-    
-      if(pac->type == INT){
-        for(int i = 0; i<pac->numElem;i++){
-            printf("%d", ((int*)pac->data)[i]);
-        }
+      if(pac->type == CHAR){
+    for(int i = 0; i<pac->numElem;i++){
+        printf("%c", ((char*)pac->data)[i]);
+    }}else if(pac->type == INT){
+    for(int i = 0; i<pac->numElem;i++){
+        printf("%d", ((int*)pac->data)[i]);
     }
-    if(pac->type == CHAR){
-        for(int i = 0; i<pac->numElem;i++){
-            printf("%c", ((char*)pac->data)[i]);
-        }
-    }
-printf("\n");
+   }
+   printf("\n");
 }
 
 /**
@@ -98,16 +89,16 @@ printf("\n");
  * @param pac - O vetor genérico que terá sua soma de verificacao calculada
  */
 void CalculaSomaVerificacaoPacote(tPacote* pac){
-    int soma = 0;
-    if(pac->type == INT){
-        for(int i = 0; i<pac->numElem;i++){
-            soma += ((int*)pac->data)[i];
-        } 
-    }if(pac->type == CHAR){
-        for(int i = 0; i<pac->numElem;i++){
-             soma += ((char*)pac->data)[i];
-        }
+  int soma = 0;
+
+    if(pac->type == CHAR){
+    for(int i = 0; i<pac->numElem;i++){
+      soma += ((char*)pac->data)[i];
+    }}else if(pac->type == INT){
+    for(int i = 0; i<pac->numElem;i++){
+       soma += ((char*)pac->data)[i];
     }
+   }
   
 }
 

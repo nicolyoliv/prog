@@ -1,6 +1,6 @@
-==13841== Memcheck, a memory error detector
-==13841== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==13841== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==13841== Command: Resultados/Includes/completo/prog Resultados/Includes/completo/Casos/4
-==13841== Parent PID: 13840
-==13841== 
+==65937== Memcheck, a memory error detector
+==65937== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==65937== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==65937== Command: Resultados/Includes/completo/prog Resultados/Includes/completo/Casos/4
+==65937== Parent PID: 65936
+==65937== 

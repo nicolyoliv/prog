@@ -7,15 +7,15 @@ Teste main
 Nota de Includes para o teste main: 1.50
 Teste completo
   - Resultados corretos: 5 de 5
-  - Valgrinds corretos: 2 de 5
-Nota de Includes para o teste completo: 1.75
+  - Valgrinds corretos: 5 de 5
+Nota de Includes para o teste completo: 2.50
 Teste gerenciadorpacotes
   - Resultados corretos: 5 de 5
   - Valgrinds corretos: 1 de 5
 Nota de Includes para o teste gerenciadorpacotes: 1.50
 Teste pacote
   - Resultados corretos: 5 de 5
-  - Valgrinds corretos: 2 de 5
-Nota de Includes para o teste pacote: 1.75
-Nota de Includes: 0+(1.50)+(1.75)+(1.50)+(1.75)
-Nota de Includes: 6.50
+  - Valgrinds corretos: 5 de 5
+Nota de Includes para o teste pacote: 2.50
+Nota de Includes: 0+(1.50)+(2.50)+(1.50)+(2.50)
+Nota de Includes: 8.00

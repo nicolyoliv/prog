@@ -4,8 +4,9 @@
 #include <stdlib.h>
 
  struct gerenciadorpacotes {
-    tPacote **pacote;
-    int tam;
+   tPacote **pacote;
+   int tam;
+
  };
 
 /**
@@ -15,14 +16,15 @@
  * @return O gerenciador de pacotes
  */
 tGerenciador* CriaGerenciador(){
-    tGerenciador *g = calloc(1, sizeof(tGerenciador));
-    if(g==NULL){
-        exit(1);
-    }
-    g->pacote = NULL;
-    g->tam=0;
+ tGerenciador *g =calloc(1, sizeof(tGerenciador));
+if(g==NULL){
+    exit(1);
+}
+g->pacote = NULL;
+g->tam = 0;
 
-    return g;
+return g;
+
 }
 
 /**
@@ -33,9 +35,13 @@ tGerenciador* CriaGerenciador(){
  *
  */
 void AdicionaPacoteNoGerenciador(tGerenciador* geren, tPacote* pac){
-    geren->pacote = realloc(geren->pacote, (geren->tam+1) * sizeof(tPacote*));
-    geren->pacote[geren->tam] = pac;
-    geren->tam++;
+   if(!geren || !pac) return;
+
+    tPacote **tmp = realloc(geren->pacote, (geren->tam + 1) * sizeof(tPacote*));
+    if(!tmp) exit(1);
+
+    geren->pacote = tmp;
+    geren->pacote[geren->tam++] = pac;
 }
 
 
@@ -46,9 +52,11 @@ void AdicionaPacoteNoGerenciador(tGerenciador* geren, tPacote* pac){
  *
  */
 void DestroiGerenciador(tGerenciador* geren){
-    for(int i=0; i<geren->tam;i++){
-      DestroiPacote(geren->pacote[i]);
-    }free(geren->pacote);
+    for(int i = 0; i< geren->tam; i++){
+       DestroiPacote(geren->pacote[i]);
+        
+    }
+    free(geren->pacote);
     free(geren);
 }
 
@@ -60,9 +68,10 @@ void DestroiGerenciador(tGerenciador* geren){
  *
  */
 void ImprimirPacoteNoIndice(tGerenciador* geren, int idx){
-    if(idx<0 || idx >= geren->tam){
-        return;
-    }ImprimePacote(geren->pacote[idx]);
+ if(idx<0 || idx >= geren->tam){
+    return;
+ }
+    ImprimePacote(geren->pacote[idx]);
 }
 
 
@@ -73,7 +82,7 @@ void ImprimirPacoteNoIndice(tGerenciador* geren, int idx){
  *
  */
 void ImprimirTodosPacotes(tGerenciador* geren){
-    for(int i = 0;i<geren->tam;i++){
-        ImprimePacote(geren->pacote[i]);
-    }
+   for(int i = 0; i<geren->tam; i++){
+    ImprimePacote(geren->pacote[i]);
+   }
 }

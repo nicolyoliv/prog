@@ -1,15 +1,15 @@
-==21114== Memcheck, a memory error detector
-==21114== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==21114== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==21114== Command: Resultados/Includes/movel/prog Resultados/Includes/movel/Casos/1
-==21114== Parent PID: 21113
-==21114== 
-==21114== 
-==21114== HEAP SUMMARY:
-==21114==     in use at exit: 0 bytes in 0 blocks
-==21114==   total heap usage: 9 allocs, 9 frees, 8,327 bytes allocated
-==21114== 
-==21114== All heap blocks were freed -- no leaks are possible
-==21114== 
-==21114== For lists of detected and suppressed errors, rerun with: -s
-==21114== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==26308== Memcheck, a memory error detector
+==26308== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==26308== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==26308== Command: Resultados/Includes/movel/prog Resultados/Includes/movel/Casos/1
+==26308== Parent PID: 26307
+==26308== 
+==26308== 
+==26308== HEAP SUMMARY:
+==26308==     in use at exit: 0 bytes in 0 blocks
+==26308==   total heap usage: 9 allocs, 9 frees, 8,327 bytes allocated
+==26308== 
+==26308== All heap blocks were freed -- no leaks are possible
+==26308== 
+==26308== For lists of detected and suppressed errors, rerun with: -s
+==26308== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
