@@ -2,12 +2,16 @@
 #include <string.h>
 #include <stdlib.h>
 #include "movel.h"
+
+#define TAM 100
 /**
  * @brief Estrutura representando um Movel.
  */
- struct Movel {
+ struct Movel{
     char *nome;
- };
+
+
+ } ;
 
 /**
  * @brief Cria um novo Movel.
@@ -15,14 +19,13 @@
  * @return Um ponteiro para o novo Movel.
  */
 tMovel *CriaMovel(char *nome){
-tMovel* m = (tMovel*)calloc(1,sizeof(tMovel));
-if(m == NULL){
-    exit(1);
-}
-m->nome = malloc(strlen(nome)+1);
-
-strcpy(m->nome, nome);
-return m;
+    tMovel *m = (tMovel*)calloc(1, sizeof(tMovel));
+    if(m==NULL){
+        exit(1);
+    }
+    m->nome = (char*)malloc(100*sizeof(char));
+    strcpy(m->nome, nome);
+    return m;
 }
 
 /**
@@ -40,7 +43,7 @@ void DestroiMovel(tMovel *m){
  */
 tMovel *LeMovel(){
     char nome[100];
-    scanf(" %[^\n]\n", nome);
+    scanf("%s", nome);
     tMovel* m = CriaMovel(nome);
     return m;
 }
@@ -52,4 +55,5 @@ tMovel *LeMovel(){
 void ImprimeMovel(tMovel *m){
     printf("%s\n", m->nome);
 }
+
 

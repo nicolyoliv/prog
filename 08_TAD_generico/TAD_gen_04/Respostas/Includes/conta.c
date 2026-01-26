@@ -1,17 +1,16 @@
-#include "conta.h"
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
+#include "conta.h"
 
-#define TAM_NOME 50
-
+#define TAM 100
 /**
  * @brief Estrutura para representar uma conta bancária.
  */
  struct Conta {
-    int num;
-    char nome[TAM_NOME];
-    float saldo;
+int num;
+char* nome[TAM];
+float saldo;
  };
 
 /**
@@ -19,7 +18,7 @@
  * @return Um ponteiro para a nova conta bancária criada. Se a memória não puder ser alocada, a função imprime uma mensagem de erro e termina o programa.
  */
 tConta *CriaConta(){
-    tConta* c = (tConta*)calloc(1,sizeof(tConta));
+    tConta* c = (tConta*)calloc(1, sizeof(tConta));
     if(c==NULL){
         exit(1);
     }
@@ -31,7 +30,7 @@ tConta *CriaConta(){
  * @param conta A conta bancária a ser destruída.
  */
 void DestroiConta(DataType conta){
-    tConta * contaPtr = (tConta*)conta;
+    tConta* contaPtr = (tConta*)conta;
     free(contaPtr);
 }
 
@@ -41,7 +40,6 @@ void DestroiConta(DataType conta){
  */
 void LeConta(tConta *conta){
     scanf("%d;%[^;];%f", &conta->num, conta->nome, &conta->saldo);
-
 }
 
 /**

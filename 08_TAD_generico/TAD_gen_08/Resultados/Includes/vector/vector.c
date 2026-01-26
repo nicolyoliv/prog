@@ -102,4 +102,3 @@ void VectorDestroy(Vector *v, void (*destroy)(DataType)){
     free(v);
 }
 
-

@@ -1,0 +1,4 @@
+base_alunos.c: In function ‘GetCoeficienteRendimentoMedioBaseAlunos’:
+base_alunos.c:68:11: warning: unused variable ‘media’ [-Wunused-variable]
+   68 |     float media = 0.0;
+      |           ^~~~~

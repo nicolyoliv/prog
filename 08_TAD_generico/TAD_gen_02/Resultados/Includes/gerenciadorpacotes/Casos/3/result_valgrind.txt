@@ -1,15 +1,15 @@
-==66432== Memcheck, a memory error detector
-==66432== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==66432== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==66432== Command: Resultados/Includes/gerenciadorpacotes/prog Resultados/Includes/gerenciadorpacotes/Casos/3
-==66432== Parent PID: 66431
-==66432== 
-==66432== 
-==66432== HEAP SUMMARY:
-==66432==     in use at exit: 0 bytes in 0 blocks
-==66432==   total heap usage: 3 allocs, 3 frees, 8,208 bytes allocated
-==66432== 
-==66432== All heap blocks were freed -- no leaks are possible
-==66432== 
-==66432== For lists of detected and suppressed errors, rerun with: -s
-==66432== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==72422== Memcheck, a memory error detector
+==72422== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==72422== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==72422== Command: Resultados/Includes/gerenciadorpacotes/prog Resultados/Includes/gerenciadorpacotes/Casos/3
+==72422== Parent PID: 72421
+==72422== 
+==72422== 
+==72422== HEAP SUMMARY:
+==72422==     in use at exit: 0 bytes in 0 blocks
+==72422==   total heap usage: 3 allocs, 3 frees, 8,208 bytes allocated
+==72422== 
+==72422== All heap blocks were freed -- no leaks are possible
+==72422== 
+==72422== For lists of detected and suppressed errors, rerun with: -s
+==72422== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

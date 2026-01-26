@@ -1,18 +1,18 @@
-#include "banco.h"
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
+#include "banco.h"
 
-
-#define TAM_NOME 50
+#define TAM 100
 
 /**
  * @brief Estrutura para representar um banco.
  */
  struct Banco {
-    char nome[TAM_NOME];
-    Vector *agencias;
-    int qAgencia;
+    char nome[TAM];
+    int qtdAgencia;
+    Vector * agencia;
+
  };
 
 /**
@@ -20,13 +20,14 @@
  * @return Um ponteiro para o novo banco criado. Se a memória não puder ser alocada, a função imprime uma mensagem de erro e termina o programa.
  */
 tBanco *CriaBanco(){
-    tBanco* b = (tBanco*)calloc(1,sizeof(tBanco));
-    if(b==NULL){
-        exit(1);
-    }
-    b->agencias = VectorConstruct();
-    b->qAgencia = 0;
-    return b;
+   tBanco* b = (tBanco*)calloc(1, sizeof(tBanco));
+   if(b==NULL){
+      exit(1);
+   }
+   b->agencia = VectorConstruct();
+
+   b->qtdAgencia = 0;
+   return b;
 }
 
 /**
@@ -34,8 +35,8 @@ tBanco *CriaBanco(){
  * @param banco O banco a ser destruído.
  */
 void DestroiBanco(tBanco *banco){
-    VectorDestroy(banco->agencias, DestroiAgencia);
-    free(banco);
+   VectorDestroy(banco->agencia, DestroiAgencia);
+   free(banco);
 }
 
 /**
@@ -43,7 +44,7 @@ void DestroiBanco(tBanco *banco){
  * @param banco O banco a ser lido.
  */
 void LeBanco(tBanco *banco){
-    scanf("%[^\n]\n", banco->nome);
+   scanf("%[^\n]\n", banco->nome);
 }
 
 /**
@@ -52,8 +53,8 @@ void LeBanco(tBanco *banco){
  * @param agencia A agência a ser adicionada.
  */
 void AdicionaAgencia(tBanco *banco, tAgencia *agencia){
-    VectorPushBack(banco->agencias, agencia);
-    banco->qAgencia++;
+   VectorPushBack(banco->agencia, agencia);
+   banco->qtdAgencia++;
 }
 
 /**
@@ -64,16 +65,14 @@ void AdicionaAgencia(tBanco *banco, tAgencia *agencia){
  * @pre A agência deve pertencer ao banco.
 */
 void InsereContaBanco(tBanco *banco, int numAgencia, tConta *cliente){
-    for(int i = 0; i<banco->qAgencia;i++){
-        tAgencia* agencia = (tAgencia*)VectorGet(banco->agencias, i);
-        if(ComparaAgencia(numAgencia, agencia)){
-            AdicionaConta(agencia, cliente);
-            return;
-        }
-    }
-            printf("Agencia nao encontrada.\n");
-
-    
+   for(int i = 0; i< banco->qtdAgencia;i++){
+      tAgencia* agencia = (tAgencia*) VectorGet(banco->agencia, i);
+      if(ComparaAgencia( numAgencia, agencia)){
+         AdicionaConta(agencia, cliente);
+         return;
+      }
+   }
+   printf("Agencia nao encontrada\n");
 }
 
 /**
@@ -81,13 +80,11 @@ void InsereContaBanco(tBanco *banco, int numAgencia, tConta *cliente){
  * @param banco O banco.
  */
 void ImprimeRelatorioBanco(tBanco *banco){
-    printf("%s\n", banco->nome);
-    printf("Lista de agencias:\n");
-    for(int i = 0;i<banco->qAgencia;i++){
-        tAgencia *agencia = (tAgencia*)VectorGet(banco->agencias,i);
-        ImprimeDadosAgencia(agencia);
-                printf("\n");
-
-    }
-
+   printf("%s\n", banco->nome);
+   printf("Lista de agencias:\n");
+   for(int i = 0; i< banco->qtdAgencia;i++){
+      tAgencia* agencia = (tAgencia*)VectorGet(banco->agencia,i);
+      ImprimeDadosAgencia(agencia);
+      printf("\n");
+   }
 }

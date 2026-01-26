@@ -10,35 +10,11 @@ vector.h:55:38: note: expected ‘void (*)(void *)’ but argument is of type �
    55 | void VectorDestroy(Vector *v, void (*destroy)(DataType));
       |                               ~~~~~~~^~~~~~~~~~~~~~~~~~
 main.c: In function ‘main’:
-main.c:17:18: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
-   17 |         scanf(" %s", op);
-      |                 ~^   ~~
-      |                  |   |
-      |                  |   int *
-      |                  char *
-      |                 %ls
-main.c:18:19: warning: passing argument 1 of ‘strcmp’ from incompatible pointer type [-Wincompatible-pointer-types]
-   18 |         if(strcmp(op, "ENTRADA")== 0){
-      |                   ^~
-      |                   |
-      |                   int *
-In file included from main.c:2:
-/usr/include/string.h:156:32: note: expected ‘const char *’ but argument is of type ‘int *’
-  156 | extern int strcmp (const char *__s1, const char *__s2)
-      |                    ~~~~~~~~~~~~^~~~
-main.c:22:25: warning: passing argument 1 of ‘strcmp’ from incompatible pointer type [-Wincompatible-pointer-types]
-   22 |         }else if(strcmp(op, "PRODUZIR")== 0){
-      |                         ^~
-      |                         |
-      |                         int *
-/usr/include/string.h:156:32: note: expected ‘const char *’ but argument is of type ‘int *’
-  156 | extern int strcmp (const char *__s1, const char *__s2)
-      |                    ~~~~~~~~~~~~^~~~
-main.c:28:19: warning: passing argument 2 of ‘FilaDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
-   28 | FilaDestroy(fila, DestroiMovel);
-      |                   ^~~~~~~~~~~~
-      |                   |
-      |                   void (*)(tMovel *) {aka void (*)(struct Movel *)}
+main.c:31:16: warning: passing argument 2 of ‘FilaDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
+   31 | FilaDestroy(f, DestroiMovel);
+      |                ^~~~~~~~~~~~
+      |                |
+      |                void (*)(tMovel *) {aka void (*)(struct Movel *)}
 In file included from main.c:4:
 fila.h:21:34: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tMovel *)’ {aka ‘void (*)(struct Movel *)’}
    21 | void FilaDestroy(Fila *f, void (*destroy)(DataType));

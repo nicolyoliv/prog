@@ -4,10 +4,9 @@
 #include "fila.h"
 #include "movel.h"
 
- struct Fila {
-   
-    Vector *moveis;
 
+ struct Fila {
+    Vector* moveis;
  };
 
 /**
@@ -21,7 +20,8 @@ Fila *FilaConstruct(){
         exit(1);
     }
     f->moveis = VectorConstruct();
-    return f;
+    return  f;
+
 }
 
 /**
@@ -44,6 +44,7 @@ void FilaDestroy(Fila *f, void (*destroy)(DataType)){
 int FilaSize(Fila *f){
     return VectorSize(f->moveis);
 }
+
 /**
  * @brief Remove o primeiro elemento da fila
  * OBS: Note que a fila é uma estrutura FIFO (First In, First Out), ou seja, o primeiro elemento a ser adicionado é o primeiro a ser removido.
@@ -52,7 +53,7 @@ int FilaSize(Fila *f){
  * @return DataType Elemento removido
 */
 DataType FilaPop(Fila *f){
-return VectorPopFront(f->moveis);
+    return VectorPopFront(f-> moveis);
 }
 
 /**
@@ -62,7 +63,7 @@ return VectorPopFront(f->moveis);
  * @param val Valor a ser adicionado
 */
 void FilaPush(Fila *f, DataType val){
-VectorPushBack(f->moveis,val);
+    return VectorPushBack(f->moveis, val);
 }
 
 

@@ -1,3 +1,6 @@
-vector.c:11:2: warning: no semicolon at end of struct or union
-   11 |  };
-      |  ^
+conta.c: In function ‘LeConta’:
+conta.c:42:18: warning: format ‘%[^;’ expects argument of type ‘char *’, but argument 3 has type ‘char **’ [-Wformat=]
+   42 |     scanf("%d;%[^;];%f", &conta->num, conta->nome, &conta->saldo);
+      |               ~~~^                    ~~~~~~~~~~~
+      |                  |                         |
+      |                  char *                    char **

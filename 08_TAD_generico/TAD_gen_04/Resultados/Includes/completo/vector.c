@@ -1,13 +1,12 @@
-#include "vector.h"
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
+#include "vector.h"
 
 
  struct Vector {
     DataType *vetor;
-    int tam
-
+    int tam;
  };
 
 /**
@@ -16,7 +15,7 @@
  * @return A estrutura Vector inicializada. Caso não seja possível alocar memória, o programa é encerrado.
 */
 Vector *VectorConstruct(){
-    Vector *v = (Vector*)calloc(1,sizeof(Vector));
+    Vector* v = (Vector*)calloc(1,sizeof(Vector));
     if(v==NULL){
         exit(1);
     }
@@ -32,12 +31,9 @@ Vector *VectorConstruct(){
 */
 void VectorPushBack(Vector *v, DataType val){
     v->tam++;
-    if(!v->tam){
-        v->vetor = (DataType*)calloc(1, sizeof(DataType));
-    }else{
-        v->vetor = (DataType*)realloc(v->vetor, v->tam * sizeof(DataType));
-    }
-    v->vetor[v->tam-1]= val;
+    v->vetor= (DataType*)realloc(v->vetor, v->tam* sizeof(DataType));
+    v->vetor[v->tam-1] = val;
+
 }
 
 /**
@@ -68,9 +64,11 @@ int VectorSize(Vector *v){
  * @param destroy Função que libera a memória alocada para cada elemento do vetor
 */
 void VectorDestroy(Vector *v, void (*destroy)(DataType)){
-    for(int i = 0; i<VectorSize(v);i++){
-        destroy(v->vetor[i]);
+    for(int i = 0; i<v->tam; i++){
+    destroy(v->vetor[i]);
     }
     free(v->vetor);
     free(v);
 }
+
+

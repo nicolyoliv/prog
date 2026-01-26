@@ -5,10 +5,8 @@ Lista de agencias:
 	Numero de contas cadastradas: 2
 	Saldo médio: R$250.00
 
-
 	Nome: Republica
 	Numero: 501
 	Numero de contas cadastradas: 3
 	Saldo médio: R$663298.44
-
 

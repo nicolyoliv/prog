@@ -110,12 +110,12 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Includes/completo/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 33, frees: 33, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/Includes/completo/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 63, frees: 63, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 3:
@@ -130,7 +130,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 5:
  - Arquivo de output gerado: Resultados/Includes/completo/Casos/5/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Nota para a pasta completo (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
@@ -164,12 +164,12 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta pacote / Caso 1:
  - Arquivo de output gerado: Resultados/Includes/pacote/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta pacote / Caso 2:
  - Arquivo de output gerado: Resultados/Includes/pacote/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta pacote / Caso 3:
@@ -184,7 +184,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta pacote / Caso 5:
  - Arquivo de output gerado: Resultados/Includes/pacote/Casos/5/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Nota para a pasta pacote (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.

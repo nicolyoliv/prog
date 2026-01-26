@@ -1,65 +1,20 @@
 
 Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
+		(1) Cadastrar um novo pacote
+		(2) Imprimir um pacote especifico
+		(3) Imprimir todos os pacotes e sair
 Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
 Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
+		(1) Cadastrar um novo pacote
+		(2) Imprimir um pacote especifico
+		(3) Imprimir todos os pacotes e sair
 Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
 Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
-Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
-Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
-Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
-Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
-Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
-Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
-Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
-Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
-Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
-Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
-Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
-Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
-Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
-Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
-Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem:
-Escolha uma opcao:
-(1) Cadastrar um novo pacote
-(2) Imprimir um pacote especifico
-(3) Imprimir todos os pacotes e sair
-abcdefghij
-5128331928457211430261611413647204922179
-392434346376429354825214410383115133227344223184052630711
-ijklmnop
-qrstuvwxyzabcd
-2234736729182540462935211530
-131932518
-efghijklmnopqr
-stuvwxyzabc
-334410216271714323194248430411235153673438146268
+		(1) Cadastrar um novo pacote
+		(2) Imprimir um pacote especifico
+		(3) Imprimir todos os pacotes e sair
+
+abcdefgh
+ij
+1
+1 2

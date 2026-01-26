@@ -1,25 +1,25 @@
-==66139== Memcheck, a memory error detector
-==66139== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==66139== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==66139== Command: Resultados/Includes/gerenciadorpacotes/prog Resultados/Includes/gerenciadorpacotes/Casos/1
-==66139== Parent PID: 66138
-==66139== 
-==66139== Invalid write of size 1
-==66139==    at 0x48D9795: __vfscanf_internal (vfscanf-internal.c:3063)
-==66139==    by 0x48C9EC5: __isoc99_scanf (isoc99_scanf.c:30)
-==66139==    by 0x10966C: LePacote (in /home/nicoly/Documentos/prog/08_TAD_generico/TAD_gen_02/Resultados/Includes/gerenciadorpacotes/prog)
-==66139==    by 0x1094EC: main (in /home/nicoly/Documentos/prog/08_TAD_generico/TAD_gen_02/Resultados/Includes/gerenciadorpacotes/prog)
-==66139==  Address 0x4a8117b is 0 bytes after a block of size 11 alloc'd
-==66139==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==66139==    by 0x1095C4: CriaPacote (in /home/nicoly/Documentos/prog/08_TAD_generico/TAD_gen_02/Resultados/Includes/gerenciadorpacotes/prog)
-==66139==    by 0x1094DC: main (in /home/nicoly/Documentos/prog/08_TAD_generico/TAD_gen_02/Resultados/Includes/gerenciadorpacotes/prog)
-==66139== 
-==66139== 
-==66139== HEAP SUMMARY:
-==66139==     in use at exit: 0 bytes in 0 blocks
-==66139==   total heap usage: 33 allocs, 33 frees, 9,362 bytes allocated
-==66139== 
-==66139== All heap blocks were freed -- no leaks are possible
-==66139== 
-==66139== For lists of detected and suppressed errors, rerun with: -s
-==66139== ERROR SUMMARY: 5 errors from 1 contexts (suppressed: 0 from 0)
+==72119== Memcheck, a memory error detector
+==72119== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==72119== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==72119== Command: Resultados/Includes/gerenciadorpacotes/prog Resultados/Includes/gerenciadorpacotes/Casos/1
+==72119== Parent PID: 72118
+==72119== 
+==72119== Invalid write of size 1
+==72119==    at 0x48D9795: __vfscanf_internal (vfscanf-internal.c:3063)
+==72119==    by 0x48C9EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==72119==    by 0x10966C: LePacote (in /home/nicoly/Documentos/prog/08_TAD_generico/TAD_gen_02/Resultados/Includes/gerenciadorpacotes/prog)
+==72119==    by 0x1094EC: main (in /home/nicoly/Documentos/prog/08_TAD_generico/TAD_gen_02/Resultados/Includes/gerenciadorpacotes/prog)
+==72119==  Address 0x4a8117b is 0 bytes after a block of size 11 alloc'd
+==72119==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==72119==    by 0x1095C4: CriaPacote (in /home/nicoly/Documentos/prog/08_TAD_generico/TAD_gen_02/Resultados/Includes/gerenciadorpacotes/prog)
+==72119==    by 0x1094DC: main (in /home/nicoly/Documentos/prog/08_TAD_generico/TAD_gen_02/Resultados/Includes/gerenciadorpacotes/prog)
+==72119== 
+==72119== 
+==72119== HEAP SUMMARY:
+==72119==     in use at exit: 0 bytes in 0 blocks
+==72119==   total heap usage: 33 allocs, 33 frees, 9,362 bytes allocated
+==72119== 
+==72119== All heap blocks were freed -- no leaks are possible
+==72119== 
+==72119== For lists of detected and suppressed errors, rerun with: -s
+==72119== ERROR SUMMARY: 5 errors from 1 contexts (suppressed: 0 from 0)
