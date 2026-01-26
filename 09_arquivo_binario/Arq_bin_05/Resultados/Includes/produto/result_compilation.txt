@@ -1,0 +1,13 @@
+produto.c: In function ‘LeProduto’:
+produto.c:36:8: warning: unused variable ‘quant’ [-Wunused-variable]
+   36 |    int quant;
+      |        ^~~~~
+produto.c:35:10: warning: unused variable ‘preco’ [-Wunused-variable]
+   35 |    float preco;
+      |          ^~~~~
+produto.c:34:9: warning: unused variable ‘nome’ [-Wunused-variable]
+   34 |    char nome[50];
+      |         ^~~~
+produto.c:33:9: warning: unused variable ‘codigo’ [-Wunused-variable]
+   33 |     int codigo;
+      |         ^~~~~~

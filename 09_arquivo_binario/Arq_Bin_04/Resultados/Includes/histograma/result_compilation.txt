@@ -1,0 +1,12 @@
+histograma.c: In function ‘CalcularHistograma’:
+histograma.c:23:19: warning: implicit declaration of function ‘ceil’ [-Wimplicit-function-declaration]
+   23 |     h->tam = (int)ceil(256.0/nIntervalos);
+      |                   ^~~~
+histograma.c:5:1: note: include ‘<math.h>’ or provide a declaration of ‘ceil’
+    4 | #include "histograma.h"
+  +++ |+#include <math.h>
+    5 | 
+histograma.c:23:19: warning: incompatible implicit declaration of built-in function ‘ceil’ [-Wbuiltin-declaration-mismatch]
+   23 |     h->tam = (int)ceil(256.0/nIntervalos);
+      |                   ^~~~
+histograma.c:23:19: note: include ‘<math.h>’ or provide a declaration of ‘ceil’

@@ -1,0 +1,4 @@
+estabelecimento.c: In function ‘GetValorTotalVendidoEstabelecimento’:
+estabelecimento.c:74:9: warning: unused variable ‘tam’ [-Wunused-variable]
+   74 |     int tam = VectorSize(estabelecimento->produto);
+      |         ^~~

@@ -2,11 +2,11 @@
 #include "estabelecimento.h"
 
 int main(){
-    tEstabelecimento *est = CriaEstabelecimento();
+   
+    tEstabelecimento* e = CriaEstabelecimento();
+    LeEstabelecimento(e);
+    ImprimeProdutosEmFaltaEstabelecimento(e);
+    DestroiEstabelecimento(e);
 
-    LeEstabelecimento(est);
-    ImprimeProdutosEmFaltaEstabelecimento(est);
-
-    DestroiEstabelecimento(est);
     return 0;
 }
