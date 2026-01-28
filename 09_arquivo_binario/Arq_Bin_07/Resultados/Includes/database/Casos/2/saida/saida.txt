@@ -1,0 +1,19 @@
+Numero de bytes salvos: 1362
+Numero de bytes lidos: 1362
+
+
+Alunos:
+Ana
+Joao
+Rafael
+Camila
+Pedro
+
+Professores:
+Gustavo
+Carlos
+Vanessa
+Fernando
+Isabela
+Patricia
+Juliano

@@ -1,0 +1,23 @@
+Numero de bytes salvos: 1812
+Numero de bytes lidos: 1812
+
+
+Alunos:
+Lucas
+Victor
+Leticia
+Juliana
+Andre
+Carolina
+
+Professores:
+Alexandre
+Adriano
+Larissa
+Patricia
+Renata
+Roberto
+Beatriz
+Anderson
+Camila
+Luiz
